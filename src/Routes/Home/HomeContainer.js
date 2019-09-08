@@ -11,9 +11,15 @@ export default class extends Component {
     };
 
     render() {
-        const { nowPlayinh, upComing, popular, error, loading} = this.state;
+        const { nowPlaying, upComing, popular, error, loading} = this.state;
         return(
-            <HomePresenter />
+            <HomePresenter 
+                nowPlaying={nowPlaying}
+                upComing={upComing}
+                popular={popular}
+                error={error}
+                loading={loading}
+            />
         );
     };
 } 

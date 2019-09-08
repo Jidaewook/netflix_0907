@@ -13,7 +13,13 @@ export default class extends Component {
     render(){
         const {movieResults, tvResults, searchTerm, loading, error} = this.state;
         return(
-            <SearchPresenter />
+            <SearchPresenter 
+                movieResults={movieResults}
+                tvResults={tvResults}
+                searchTerm={searchTerm}
+                loading={loading}
+                error={error}
+            />
         );
     }
 

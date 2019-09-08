@@ -11,7 +11,11 @@ export default class extends Component {
     render() {
         const { result, error, loading } = this.state;
         return (
-            <DetailPresenter />
+            <DetailPresenter 
+                result={result}
+                error={error}
+                loading={loading}
+            />
         );
     };
 } 
