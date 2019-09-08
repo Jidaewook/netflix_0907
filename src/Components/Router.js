@@ -1,9 +1,9 @@
 import React from 'react';
 import {HashRouter as Router, Route, Redirect, Switch} from "react-router-dom";
 import Header from './Header';
-import Home from "./../Routes/Home";
-import Tv from "./../Routes/Tv";
-import Search from "./../Routes/Search";
+import Home from "../Routes/Home/HomeContainer";
+import Tv from "../Routes/Tv/TvPresenter";
+import Search from "../Routes/Serach/SearchPresenter";
 
 export default () => (
 
