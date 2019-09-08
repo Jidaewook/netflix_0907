@@ -4,7 +4,14 @@ import styled from "styled-components";
 
 const Header = styled.header``;
 
-const List = styled.ul``;
+const List = styled.ul`
+    display: flex;
+    &:hover{
+        background-color: blue;
+    }
+`;
+
+
 
 const Item = styled.li``;
 
