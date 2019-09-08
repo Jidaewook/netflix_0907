@@ -5,6 +5,6 @@
 - [x] Top Rated (TV, Movie)
 - [x] Popular (TV, Movie)
 - [x] Airing Today (TV)
-- [ ] Search(Movie, TV)
-- [ ] TV Show Detail
-- [ ] Movie Detail
+- [x] Search(Movie, TV)
+- [x] TV Show Detail
+- [x] Movie Detail
