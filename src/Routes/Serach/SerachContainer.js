@@ -13,7 +13,7 @@ export default class extends Component {
     render(){
         const {movieResults, tvResults, searchTerm, loading, error} = this.state;
         return(
-            
+            <SearchPresenter />
         );
     }
 

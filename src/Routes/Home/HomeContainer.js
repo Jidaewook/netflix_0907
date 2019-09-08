@@ -13,7 +13,7 @@ export default class extends Component {
     render() {
         const { nowPlayinh, upComing, popular, error, loading} = this.state;
         return(
-
+            <HomePresenter />
         );
     };
-}
+} 
