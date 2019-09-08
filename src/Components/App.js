@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Router from './Router';
-import Header from './Header';
+import Header from './Header/Header';
 
 // index에서 초기에 아래 App이 렌더링되는 것까지 초기 작업으로 진행됨.
 // App이 아래 앱 하에 있는 콤포넌트인 라우터까지 실행시키게 된다. 
