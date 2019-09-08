@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styleds from 'styled-components';
+import styled from 'styled-components';
 
 const TvPresenter = ({topRated, popular, airingToday, loading, error}) => null;
 
@@ -12,4 +12,4 @@ TvPresenter.proptypes ={
     error: PropTypes.string
 }
 
-export default () => "Tv";
+export default TvPresenter;

@@ -36,7 +36,7 @@ export const tvApi = {
                 append_to_response: "videos"
             }
         }), 
-    serach: term =>
+    search: term =>
         api.get("serach/tv", {
             params: {
                 query: encodeURIComponent(term)
