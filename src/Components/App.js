@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Router from './Router';
+import GlobalStyles from './GlobalStyles';
 
 
 // index에서 초기에 아래 App이 렌더링되는 것까지 초기 작업으로 진행됨.
@@ -17,6 +18,7 @@ class App extends Component {
         <>
 
           <Router />
+          <GlobalStyles />
         </>
     );
   }
